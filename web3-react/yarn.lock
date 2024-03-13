@@ -2945,13 +2945,13 @@
     "@gnosis.pm/safe-apps-sdk" "^7.6.0"
     "@web3-react/types" "^8.0.20-beta.0"
 
-"@web3-react/metamask@^8.0.29-beta.0":
-  version "8.0.29-beta.0"
-  resolved "https://registry.yarnpkg.com/@web3-react/metamask/-/metamask-8.0.29-beta.0.tgz#536536b8d4f22f21d3e109efaa8149939833f21b"
-  integrity sha512-UPaVmNum6cJ/CwW5WYFMrm6GwiuY1hnuCYB+bV1Bs0xghdag2Laj8/mSfpFCsCHcvg1ZWTcr4bH+WyuYAHgUxw==
+"@web3-react/metamask@^8.2.4":
+  version "8.2.4"
+  resolved "https://registry.yarnpkg.com/@web3-react/metamask/-/metamask-8.2.4.tgz#26438222c4b17964c011ea359058ba6feb6a2330"
+  integrity sha512-4yoqDgvcB0QKUGSk00/fUipA3z5rOXcQYAwE0CABPa5lbTRAIm5i8F0Gj8UW7QO0pQus4UtjX0+JxWdclB7UrA==
   dependencies:
     "@metamask/detect-provider" "^1.2.0"
-    "@web3-react/types" "^8.0.20-beta.0"
+    "@web3-react/types" "^8.2.3"
 
 "@web3-react/network@^8.0.27-beta.0":
   version "8.0.27-beta.0"
@@ -2976,6 +2976,13 @@
   integrity sha512-qOZYMyUmsm3Um6t6Pg3OgnE86ufhWZpB5/VxsooB8cdpXc/C/f8KMyYSeM63GoKSMScOKwfqV6yODFL7g/Qc8g==
   dependencies:
     zustand "^4.0.0-rc.0"
+
+"@web3-react/types@^8.2.3":
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-8.2.3.tgz#e2ac1eaaa7f96b518a5535fee048bf73470f5c21"
+  integrity sha512-kSG90QkN+n7IOtp10nQ44oS8J7jzfH9EmqnruwBpCGybh1FM/ohyRvUKWYZNfNE4wsjTSpKsINR0/VdDsZMHyg==
+  dependencies:
+    zustand "4.4.0"
 
 "@web3-react/walletconnect@^8.0.36-beta.0":
   version "8.0.36-beta.0"
@@ -10746,6 +10753,13 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zustand@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.4.0.tgz#13b3e8ca959dd53d536034440aec382ff91b65c3"
+  integrity sha512-2dq6wq4dSxbiPTamGar0NlIG/av0wpyWZJGeQYtUOLegIUvhM2Bf86ekPlmgpUtS5uR7HyetSiktYrGsdsyZgQ==
+  dependencies:
+    use-sync-external-store "1.2.0"
 
 zustand@^4.0.0-rc.0:
   version "4.3.1"
